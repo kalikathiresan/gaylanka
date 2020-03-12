@@ -1,0 +1,82 @@
+.join-title{
+    font-weight: bold;
+    color: #ed3974;
+    margin: 40px 0;
+}
+.hidden{
+    display: none !important
+}
+#category{
+    min-height: 160px;
+}
+.error-template{
+    text-align: center;
+    color: #ed3974;
+    border: 1px solid #ed3974;
+    border-radius: 5px;
+    padding: 30px;
+}
+.error-template p{
+    text-align: center;
+    color: #ed3974;
+}
+.ft-26{
+    font-size: 26px;
+}
+.ft-20{
+    font-size: 20px;
+}
+.strong{
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-join{
+        padding: 20px 40px;
+    }
+}
+
+
+.lankalove-post table tr td {
+    padding: 0 40px;
+}
+.lankalove-post table tr td b{
+    font-weight: unset;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+.home-show-message{
+    max-height: 65px;
+}
+.single-sidebar-widget .single-blog-post .post-content{
+    width: 100%;
+}
+.long-logo{
+    display: block;
+}
+.small-logo{
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .single-blog-post{
+        margin-bottom: 40px;
+    }
+    .home-show-message{
+        max-height: unset;
+        max-width: 100%;
+        font-size: 12px;
+    }
+    .p-30{
+        padding: 30px 10px !important;
+    }
+    .mag-posts-area{
+        padding: 0 0px;
+    }
+    .long-logo{
+        display: none !important;
+    }
+    .small-logo{
+        display: block !important;
+    }
+}
